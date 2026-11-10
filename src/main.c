@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <unistd.h>
+#include <pigpio.h>
 
 #define FILENAME "temperature_log.csv"
+#define PIN 17
 
 // Function to simulate turning the LED ON/OFF
 void set_led_status(bool is_warning) {
@@ -56,11 +59,18 @@ int main() {
         printf("Temperature: %.1f°F -> Status: ", temp_input);
         if (is_warning) {
             printf("WARNING");
+	gpioInitialise();
+	gpioSetMode (PIN,PI_OUTPUT);
+	gpioWrite(PIN,1);
         } else {
             printf("NORMAL");
+	gpioInitialise();
+	gpioSetMode (PIN,PI_OUTPUT);
+	gpioWrite (PIN,0);
         }
         
         // Trigger LED
+	
         set_led_status(is_warning);
 
         // Save reading and status to file
@@ -79,7 +89,7 @@ int main() {
     } else {
         printf("\nNo temperature readings were recorded.\n");
     }
-
+	gpioTerminate();
     // Close the file
     fclose(file);
     printf("Data successfully saved to %s. Program exited.\n", FILENAME);

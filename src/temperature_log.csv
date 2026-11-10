@@ -1,0 +1,20 @@
+Temperature: 74.0°F - Status: NORMAL
+Temperature: 78.0°F - Status: WARNING
+Temperature: 74.0°F - Status: NORMAL
+Temperature: 77.0°F - Status: WARNING
+
+Summary: Total Readings = 2, Average Temperature = 75.50°F
+Temperature: 76.0°F - Status: NORMAL
+
+Summary: Total Readings = 1, Average Temperature = 76.00°F
+Temperature: 76.0°F - Status: NORMAL
+Temperature: 78.0°F - Status: WARNING
+Temperature: 74.0°F - Status: NORMAL
+Temperature: 66.0°F - Status: WARNING
+Temperature: 69.0°F - Status: NORMAL
+Temperature: 78.0°F - Status: WARNING
+Temperature: 76.0°F - Status: NORMAL
+Temperature: 50.0°F - Status: WARNING
+Temperature: 76.0°F - Status: NORMAL
+
+Summary: Total Readings = 9, Average Temperature = 71.44°F
