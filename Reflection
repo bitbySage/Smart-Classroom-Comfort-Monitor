@@ -1,2 +1,19 @@
-Jairo: The project was a fun project. We had a few hitches but quickly figured it out and got the code to run perfectly.
-Sage: The project was fun yet challenging. The whole process made me rethink a lot of things, but seeing our project work at the end was rewarding.
+1. What was your primary contribution to the project?
+2. What was the most challenging technical problem your team encountered?
+3. How did your team use testing or debugging to solve a problem?
+4. Which skills from CSE 1106 were most useful?
+5. What would you improve if you had more time?
+
+JAIRO
+1. I contributed mostly to the code and implementation of the program.
+2. A challenge we faced ensuring there were no logical errors in our code. We had to eliminate quite a bit of errors.
+3. We used testing and debugging to eliminate logical errors and some syntax errors too.
+4. The GITHUB skills and C programming skills were really handy in this project.
+5. I would improve the program by adding a way for the user to change the accepted range so that program is more userfriedly. 
+
+SAGE
+1. My primary contribution was setting up the hardware and data collection logic.
+2. The most challenging part was managing the sensor reading. Ensuring that the progam worked like we wanted.
+3. With testing and debugging we found and corrected some errors in our code.
+4. Linux Terminal knowlwge and skills were really useful in this project.
+5. Maybe add a second light (preferably green) to distinguish was from WARNING (red light) and NORMAL (green light)
